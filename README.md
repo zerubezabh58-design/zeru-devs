@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="3700_9_08.jpg" alt="zerubezabh58-design Banner" width="100%">
-</p>
-
 ---
 # zeru-devs
 Full-Stack Developer passionate about building modern web applications. I enjoy working across the entire stack — from creating responsive user interfaces to developing powerful back-end systems and APIs. Always learning new technologies and improving my development skills.
