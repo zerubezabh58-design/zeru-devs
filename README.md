@@ -17,8 +17,8 @@ FRONTEND
 <img src="https://skillicons.dev/icons?i=html,css,js,python,git,github,vscode" />
 ## 📊 GitHub Stats
 
-![Zeru's GitHub stats](https://github-readme-stats.vercel.app/api?username=zeru-devs&show_icons=true&theme=tokyonight)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=zeru-devs)
+![Zeru's GitHub stats](https://github-readme-stats.vercel.app/api?username=zerubezabh58-design&show_icons=true&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=zerubezabh58-design)
 ## Contact
 Email:zerubezabh58@gmail.com
 tel:+251917235087
