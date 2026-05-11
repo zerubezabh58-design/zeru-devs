@@ -45,7 +45,7 @@ ul {list-style:none;}
   top:0;
   height: 30%;
   width:100%;
-  background: rgba(98, 9, 9, 0.8);
+  background: rgba(112, 3, 3, 0.8);
   backdrop-filter: blur(10px);
   display:flex;
   justify-content:space-between;
