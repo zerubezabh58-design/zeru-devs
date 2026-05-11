@@ -63,59 +63,6 @@ ul {list-style:none;}
 #theme-toggle {
   cursor:pointer; background:none; border:none; font-size:1.2rem;
 }
-/* ===== NAVBAR ===== */
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body{
-  font-family: Arial, sans-serif;
-}
-
-.navbar{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 8%;
-  background: #111;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-}
-
-/* ===== LOGO ===== */
-
-.logo{
-  color: white;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-/* ===== NAV LINKS ===== */
-
-nav ul{
-  display: flex;
-  gap: 30px;
-  list-style: none;
-}
-
-nav ul li a{
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-  transition: 0.3s;
-}
-
-nav ul li a:hover,
-nav ul li a.active{
-  color: #00bfff;
-}
-
 /* ===== RESPONSIVE DESIGN ===== */
 
 /* Tablet */
