@@ -39,3 +39,36 @@ window.addEventListener('scroll', () => {
   navLinks.forEach(link => link.classList.remove('active'));
   navLinks.forEach(link => { if(link.getAttribute('href').includes(current)) link.classList.add('active'); });
 });
+const translations = {
+
+  en: {
+    heroTitle: "Hello, I'm Zeru",
+    heroDescription:
+      "I am a Computer Science student and web developer."
+  },
+
+  am: {
+    heroTitle: "ሰላም፣ እኔ ዘሩ ነኝ",
+    heroDescription:
+      "እኔ የኮምፒውተር ሳይንስ ተማሪ እና ዌብ ዴቨሎፐር ነኝ።"
+  }
+};
+
+function setLanguage(lang) {
+
+  document.getElementById("hero-title").textContent =
+    translations[lang].heroTitle;
+
+  document.getElementById("hero-description").textContent =
+    translations[lang].heroDescription;
+
+  localStorage.setItem("language", lang);
+}
+
+window.onload = () => {
+
+  const savedLanguage =
+    localStorage.getItem("language") || "en";
+
+  setLanguage(savedLanguage);
+};
