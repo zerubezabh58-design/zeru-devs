@@ -26,10 +26,22 @@
       </ul>
     </nav>
       <!-- LANGUAGE SWITCHER -->
-  <div class="language-switcher">
-    <button onclick="setLanguage('en')">EN</button>
-    <button onclick="setLanguage('am')">AM</button>
-  </div>
+  <!-- =========================
+PUT THIS INSIDE YOUR NAVBAR
+========================= -->
+
+<div class="language-switcher">
+  <button onclick="translateLanguage('en')" class="lang-btn">
+    🇺🇸 English
+  </button>
+
+  <button onclick="translateLanguage('am')" class="lang-btn">
+    🇪🇹 አማርኛ
+  </button>
+</div>
+
+<!-- Google Translate Element (Hidden) -->
+<div id="google_translate_element"></div>
 
   </header>
 <header class="hero-section">
