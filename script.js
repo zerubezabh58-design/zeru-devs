@@ -42,29 +42,34 @@ window.addEventListener('scroll', () => {
 const translations = {
 
   en: {
-    heroTitle: "Hello, I'm Zeru",
-    heroDescription:
-      "I am a Computer Science student and web developer."
+    heroTitle: "Hello, I'm ",
+    heroText: "I build Responsive websites",
+    heroBtn: "View My Work"
   },
 
   am: {
-    heroTitle: "ሰላም፣ እኔ ዘሩ ነኝ",
-    heroDescription:
-      "እኔ የኮምፒውተር ሳይንስ ተማሪ እና ዌብ ዴቨሎፐር ነኝ።"
+    heroTitle: "ሰላም፣ እኔ ",
+    heroText: "ዘመናዊ እና Responsive ድህረ ገፆችን እገነባለሁ",
+    heroBtn: "ስራዎቼን ይመልከቱ"
   }
 };
 
 function setLanguage(lang) {
 
-  document.getElementById("hero-title").textContent =
-    translations[lang].heroTitle;
+  document.getElementById("hero-title").innerHTML =
+    translations[lang].heroTitle +
+    "<span>Zeru Bezabh</span>";
 
-  document.getElementById("hero-description").textContent =
-    translations[lang].heroDescription;
+  document.getElementById("hero-text").textContent =
+    translations[lang].heroText;
+
+  document.getElementById("hero-btn").textContent =
+    translations[lang].heroBtn;
 
   localStorage.setItem("language", lang);
 }
 
+/* LOAD SAVED LANGUAGE */
 window.onload = () => {
 
   const savedLanguage =
